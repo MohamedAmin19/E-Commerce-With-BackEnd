@@ -1,0 +1,27 @@
+.page-title {
+    background-image: url(../Media/men_categorie_title_bg.jpg);
+    color: white;
+  }
+  
+  .collection .content {
+    padding: 120px 0;
+  }
+  
+  .collection .content span {
+    letter-spacing: 3px;
+  }
+  
+  .sale {
+    background-image: url(../Media/feat_sale_event.webp);
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .sale button {
+    all: unset;
+    background-color: #0069D9;
+    color: #fff;
+    padding: 7px 35px;
+    font-size: 13px;
+    border-radius: 40px;
+  }

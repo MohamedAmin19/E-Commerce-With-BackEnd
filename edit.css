@@ -1,0 +1,49 @@
+body{
+    height: 1000px;
+    overflow-x: hidden;
+}
+h5{
+    position: relative;
+    bottom:500px;
+    left:50px;
+    color : red;
+}
+.online{
+    background-color:#86868b;
+}
+.online h1{
+    color: white;
+    font-size: 48px;
+}
+.head{
+    position: absolute;
+    text-align: center;
+    left:560px;
+    top:-40;
+    transform: translate(-50%,-50%);
+}
+.form{
+    position:relative;
+    left:300px;
+}
+.inputfile{
+    position: relative;
+    bottom: 35px;
+    font-size: 1.25em;
+    font-weight: 700;
+    color: white;
+    background-color: transparent;
+    display: inline-block;
+    cursor: pointer;
+    border: 1px solid white;
+}
+
+.inputfile:focus,
+.inputfile:hover {
+    background-color: rgb(121, 117, 117);
+}
+.icon{
+    position: relative;
+    top:15px;
+    z-index:11111111;
+}

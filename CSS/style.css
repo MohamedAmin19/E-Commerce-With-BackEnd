@@ -1,0 +1,154 @@
+/*global*/
+body{
+    height: 2000px;
+}
+.py-100{
+    padding: 100px 0;
+}
+.sec-title h1::before{
+    content:" ";
+    position: absolute;
+    top:50%;
+    left: -250px;
+    transform: translateY(-50%);
+    width:220px;
+    height: 1px;
+    background-color:#ccc;
+}
+.sec-title h1::after{
+    content:" ";
+    position: absolute;
+    top:50%;
+    right: -250px;
+    transform: translateY(-50%);
+    width:220px;
+    height: 1px;
+    background-color:#ccc;
+}
+
+/*start header*/
+header .upper-nav .icons i{
+    cursor: pointer;
+}
+header .upper-nav span{
+    font-size:13px;
+    cursor: pointer;
+}
+header .upper-nav span:last-child{
+    padding-right: 70px;
+    padding-left: 70px;
+    margin-left: -4px;
+}
+header nav::before{
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: -19%;
+    width: 137%;
+    height: 1px;
+    background-color: #ccc;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: black;
+    font-size: 14px;
+}
+.navbar-light .navbar-nav .nav-link.active{
+    color: #427ed1;
+}
+.carousel-caption{
+    top: 50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    padding: 0;
+    width: 100%;
+}
+.carousel-caption h1{
+    font-size: 80px;
+}
+.carousel-caption p{
+    font-size: 24px;
+    letter-spacing: 3px;
+}
+.carousel-caption button{
+    background-color: transparent;
+    color: white;
+    border:1px solid white;
+    padding: 7px 25px;
+    font-size: 20px;
+    border-radius: 20px;
+}
+.carousel-item img{
+    height: 79vh;
+}
+.account{
+    color:black;
+}
+.account:hover{
+    text-decoration: none;
+}
+
+/*start featured products*/
+.featured .filter ul{
+    list-style: none;
+    width: 30%;
+    margin: 0 auto;
+    padding: 20px;
+}
+.featured .filter li{
+    background-color: #f6f6f6;
+    padding: 17px 40px;
+    border: 1px solid #eaeaea;
+    font-weight: bold;
+    font-size:17px;
+    cursor: pointer;
+    transition: .4s ease-in-out;
+}
+.featured .filter li.active,
+.featured .filter li:hover{
+    background-color: transparent;
+}
+.featured .image .inner{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height:0;
+    overflow: hidden;
+    color: #ccc;
+    background-image: linear-gradient(to top,#f0a6d2 0,rgba(66,126,209,0.925)100%);
+    transition: .4s ease-in-out;
+    opacity: 0;
+}
+.featured .image:hover .inner{
+    height: 100%;
+    opacity: 1;
+}
+
+/*start collection*/
+.collection .content{
+    background-position:center;
+    background-size: cover;
+    padding: 80% 10%;
+    text-align: center;
+    color:white
+}
+.collection .content button{
+    background-color: transparent;
+    color:#fff;
+    border:1px solid white;
+    padding: 7px 23px;
+    font-size: 15px;
+    border-radius: 20px;
+    margin:20px auto;
+    display:block;
+}
+.men{
+    display: inline-block;
+}
+.women{
+    display: none;
+}
+.children{
+    display:none;
+}
